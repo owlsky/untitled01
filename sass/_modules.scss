@@ -1,0 +1,22 @@
+// Navigation
+
+.nav {
+  @extend .list-unstyled;
+  &__item {
+    @include float(left);
+    margin-left: 1em;
+    margin-right: 1em;
+    a {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 12px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: $color-link;
+      @include transition;
+      &:hover {
+        color: #222;
+      }
+    }
+  }
+}
