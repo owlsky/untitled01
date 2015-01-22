@@ -10,3 +10,29 @@
   padding-left: 0;
   list-style-type: none;
 }
+
+%center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%text-center {
+  text-align: center;
+}
+
+%section {
+  padding-top: 1px;
+}
+%input-base {
+  padding: 1em;
+  font-size: 1em;
+  font-family: georgia, serif;
+  border: 1px solid #d9d9d9;
+  background-color: $color-bg-input;
+  @include box-sizing(border-box);
+}
+.input-block {
+  display: block;
+  width: 100%;
+}

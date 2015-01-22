@@ -1,14 +1,19 @@
 @import "compass";
 @import "compass/reset";
+@import "compass/utilities/sprites";
+@import "icon/*.png";
+@include all-icon-sprites;
 
 
-// Variable
+// Color
 
 $color-link: #a7a7a7;
 $color-para: #5a5a5a;
 $color-heading: #303030;
 $color-hr: $color-heading;
 $color-link-hover: $color-heading;
+$color-bg-section: #f3f3f3;
+$color-bg-input: #f2f2f2;
 
 // Function
 
