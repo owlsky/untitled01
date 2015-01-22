@@ -2,3 +2,4 @@
 *.psd
 !sprite*.psd
 Thumbs.db
+*.css.map

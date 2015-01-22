@@ -41,11 +41,11 @@
 
 .caption {
   margin-top: em(50px, 30px);
+  margin-bottom: .5em;
   text-transform: uppercase; }
 
 .divider {
   width: 240px;
-  margin: em(20px);
   border-top: 3px solid $color-hr;
   @extend %center-block;
 }
