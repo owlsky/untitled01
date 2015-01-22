@@ -1,5 +1,16 @@
 body { font-family: sans-serif; }
 a:link { text-decoration: none; }
 
-h1 { font-size: 40px; }
-h2 { font-size: 30px; }
+h1, h2 { color: $color-heading;}
+h1 {
+  font-size: em(40px);
+  line-height: em(50px,40px);
+}
+h2 { font-size: em(30px); }
+
+hr {
+  width: 180px;
+  margin: 0 auto;
+  height: 0;
+  border-top: 3px solid $color-hr;
+}

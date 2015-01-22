@@ -53,11 +53,21 @@ body {
 a:link {
   text-decoration: none; }
 
+h1, h2 {
+  color: #303030; }
+
 h1 {
-  font-size: 40px; }
+  font-size: 2.5em;
+  line-height: 1.25em; }
 
 h2 {
-  font-size: 30px; }
+  font-size: 1.875em; }
+
+hr {
+  width: 180px;
+  margin: 0 auto;
+  height: 0;
+  border-top: 3px solid #303030; }
 
 /* Layout
    ========================================================================== */
@@ -94,19 +104,27 @@ header {
   -webkit-background-size: cover;
   background-size: cover; }
   .hero-text {
+    padding-top: 1px;
     width: 500px;
     margin: 0 auto;
     text-align: center; }
+    .hero-text h1 {
+      margin-top: 174px;
+      text-transform: uppercase; }
+    .hero-text p {
+      font-family: georgia, serif;
+      line-height: 1.875em;
+      font-style: italic;
+      color: #5a5a5a; }
 
 /* Modules
    ========================================================================== */
 .nav__item {
   float: left;
-  margin-left: 1em;
-  margin-right: 1em; }
+  margin-left: 2em;
+  margin-right: 2em; }
   .nav__item a {
-    padding-left: 1em;
-    padding-right: 1em;
+    display: block;
     font-size: 12px;
     line-height: 19px;
     text-transform: uppercase;
@@ -116,7 +134,16 @@ header {
     -webkit-transition: all 1s;
     transition: all 1s; }
     .nav__item a:hover {
-      color: #222; }
+      color: #222;
+      -moz-box-shadow: 0 1px 0 0 #222;
+      -webkit-box-shadow: 0 1px 0 0 #222;
+      box-shadow: 0 1px 0 0 #222; }
+
+.btn {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url(../img/btn.png) no-repeat; }
 
 /* Utilities
    ========================================================================== */

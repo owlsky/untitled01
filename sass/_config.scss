@@ -5,3 +5,13 @@
 // Variable
 
 $color-link: #a7a7a7;
+$color-para: #5a5a5a;
+$color-heading: #303030;
+$color-hr: $color-heading;
+
+
+// Function
+
+@function em($target, $source: $base-font-size) {
+  @return $target / $source * 1em;
+}
