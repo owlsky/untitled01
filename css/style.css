@@ -46,7 +46,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block; }
 
 .icon-sprite, .icon-dribbble, .icon-linkedin, .icon-skype, .icon-twitter {
-  background-image: url('/img/icon-s1f1cadc870.png');
+  background-image: url('../img/icon-s1f1cadc870.png');
   background-repeat: no-repeat; }
 
 .icon-dribbble {
